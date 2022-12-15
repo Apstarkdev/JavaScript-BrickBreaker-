@@ -1,0 +1,16 @@
+body{
+    background-color: #25252A;
+}
+
+* {
+    padding: 0px;
+    margin: 20px;
+}
+
+canvas {
+    z-index: 3;
+    background: rgb(97, 97, 97);
+    margin: auto;
+    margin-bottom: 40rem;
+    transform: translate(0px,40px);
+}

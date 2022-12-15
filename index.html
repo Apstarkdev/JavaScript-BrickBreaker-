@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Brick Breaker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- Musica -->
+    <!-- <iframe width="0" height="0" src="Addons/Agustin - Sin título 10 dic 2022 1422 (2).m4a" frameborder="0"></iframe> -->
+</head>
+<body>
+    
+
+    <div class="botones-perso">
+        <h1 class="titulo1">BRICK BREAKER</h1>
+        <button class="btn-1" onclick= "location.href= 'brick.html'">START!</button>
+        <button class="btn-2" onclick="location.href= 'https://github.com/Apstarkdev'">GITHUB</button>
+        <button class="btn-musica" id="play">SOUND</button>
+        <script src="js/music.js"></script>
+        <audio id="song">
+            <source src="Musica/Agustin - Sin título 10 dic 2022 1422 (2).m4a">
+        </audio>
+    </div>
+    <div>
+        <nav>
+            <a href="brick.html"></a>
+        </nav>
+    </div>
+    <div class="cursor"></div>
+    <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+
+
+        // Agregar al cursor
+        document.addEventListener("mousemove", (e) => {
+            let x = e.pageX;
+            let y = e.pageY;
+
+            cursor.style.top = y + "px";
+            cursor.style.left = x + "px";
+            cursor.style.display = 'block';
+        // //Efecto al detener mouse
+        //     function mouseStopped() {
+        //         cursor.style.display = 'none';
+        //     }
+        //     // clearTimeout(timeout);
+        //     timeout = setTimeout(mouseStopped, 1000);
+        
+
+
+        //Efecto del cursor
+            document.addEventListener('mouseout', () => {
+                cursor.style.display = 'none';
+            })
+        });
+    </script>
+
+    <!-- CANVAS -->
+    <!-- <canvas id="myCanvas" width="480" height="320"></canvas> -->
+
+
+
+</body>
+<footer>
+<div class="wrapper">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="banner">
+    <div class="content">
+        
+</div>
+    
+</footer>
+</html>
+
+
+<!-- <audio id="song">
+    <source src="Addons/Agustin - Sin título 10 dic 2022 1422 (2).m4a">
+</audio> -->
+
+

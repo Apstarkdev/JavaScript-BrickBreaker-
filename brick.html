@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Brick Breaker!</title>
+    <link rel="stylesheet" href="css/brick.css">
+    <link rel="stylesheet" href="css/stylebrick.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- <iframe width="0" height="0" src="../CosasLocas/Addons/Agustin - 8.m4a" frameborder="0"></iframe> -->
+
+    
+</head>
+<body>
+    
+    <div class="botones-perso">
+        <canvas id="canvas" width="1300" height="800"></canvas>
+        <button class="btn-musica" id="play2">SOUND</button>
+        <button class="btn-3" onclick="location.href= 'brick.html'">RETRY!</button>
+        <button class="btn-4" onclick="location.href= 'index.html'">MENU!</button>
+        <div class="difuminado"></div>
+        <div class="bloque" id="bloque">
+            <h1 class="alerta" id="gameover">GAME OVER</h1>
+        </div>
+            <audio id="song">
+                <source src="Musica/lvl1.m4a">
+            </audio>
+        <script src="js/musicbrick.js"></script>
+        <script src="js/canvas.js"></script>
+
+    </div>
+
+</body>
+<footer>
+<div class="cursor"></div>
+<script type="text/javascript">
+    const cursor = document.querySelector(".cursor");
+
+
+    // Agregar al cursor
+    document.addEventListener("mousemove", (e) => {
+        let x = e.pageX;
+        let y = e.pageY;
+
+        cursor.style.top = y + "px";
+        cursor.style.left = x + "px";
+        cursor.style.display = 'block';
+        //Efecto del cursor
+        document.addEventListener('mouseout', () => {
+            cursor.style.display = 'none';
+        })
+    });
+</script>
+
+<div class="wrapper">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+</div>
+<div class="banner">
+    <div class="content">
+
+    </div>
+
+</footer>
+</html>
