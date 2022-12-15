@@ -8,8 +8,8 @@ Idealmente iré actualizando el proyecto para agregar niveles y canciones, adema
 
 
 <h2>RECOMENDACIONES DE USO</h2>
-Se recomienda apretar mantener el boton de SOUND en amarillo y de esta forma
-disfrutar de la musica y el aporte que esta hace al juego.
+Se recomienda apretar y mantener el boton de SOUND en amarillo, así de esta forma
+disfrutar de la musica y el aporte que hace esta al juego.
 
 
 
