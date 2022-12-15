@@ -7,9 +7,15 @@ es uno ligado a la dificultad y a la musica.
 Idealmente iré actualizando el proyecto para agregar niveles y canciones, ademas de funcionalidades extra.
 
 
+<h2>RECOMENDACIONES DE USO</h2>
+Se recomienda apretar mantener el boton de SOUND en amarillo y de esta forma
+disfrutar de la musica y el aporte que esta hace al juego.
+
+
+
+<h2>Para poder correr el juego</h2>
+Solo es necesario abrir el archivo index.html en un navegador
 
 
 
 
-<h1>Para poder correr el juego</h2>
-Solo es necesario abrir el fichero index.html en un navegador
